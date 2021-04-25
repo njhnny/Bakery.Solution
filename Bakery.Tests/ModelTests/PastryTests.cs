@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using Bakery.Models;
 using System;
 
-namespace Bakery.Tests
+namespace Pastry.Tests
 {
   [TestClass]
-  public class BakeryTests
+  public class PastryTests
   {
     [TestMethod]
     public void NameOfTestMethod()
