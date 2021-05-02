@@ -26,7 +26,7 @@ namespace Bakery.Tests
     [TestMethod]
     public void BreadCalculate_ReturnsCostOfThreeLoaves_Int()
     {
-      int testBreadPrice = 15;
+      int testBreadPrice = 10;
       Bread testOrder = new Bread(3);
       Assert.AreEqual(testBreadPrice, testOrder.BreadCalculate());
     }
