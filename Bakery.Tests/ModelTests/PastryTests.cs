@@ -1,23 +1,21 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using Bakery.Models;
-using System;
 
-namespace Pastry.Tests
+namespace Bakery.Tests
 {
   [TestClass]
-  public class Pastry Tests : IDisposable
+  public class PastryTests
   {
-    public void Dispose()
-    {
-      Pastry.clearAll;
-    }
+    
     [TestMethod]
-    public void NameOfTestMethod()
+    public void Pastry_Instantiates_Pastry()
     {
       //Arrange
-      //Act
+      Pastry testOrder = new Pastry(1);
+      //Act??
       //Assert
+      Assert.AreEqual(typeof(Pastry), testOrder.GetType());
     }
   }
 }
