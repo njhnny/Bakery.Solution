@@ -21,7 +21,7 @@ Navigate to the project's github page in your browser and download the code usin
 To run tests, navigate to Bakery.Tests in console and enter command (npm test).
 
 View Online
-https://github.com.io/njhnny/currency-exchanger
+This project is not yet hosted.
 
 Specs
 Contact
@@ -30,5 +30,5 @@ njhnny@gmail.com
 License
 MIT License (MIT)
 
-Copyright (c) 2020 Nick Hennessy
+Copyright (c) 2021 Nick Hennessy
 
