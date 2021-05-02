@@ -11,11 +11,8 @@ namespace Bakery.Tests
     [TestMethod]
     public void Pastry_Instantiates_Pastry()
     {
-      //Arrange
       Pastry testOrder = new Pastry(1);
-      //Act??
-      //Assert
-      Assert.AreEqual(typeof(Bread), testOrder.GetType());
+      Assert.AreEqual(typeof(Pastry), testOrder.GetType());
     }
   }
 }
