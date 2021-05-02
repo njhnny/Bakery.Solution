@@ -9,11 +9,10 @@ namespace Bakery.Tests
   public class BreadTests
   {
     [TestMethod]
-    public void NameOfTestMethod()
+    public void BreadConstructor_Instantiates_Bread()
     {
-      //Arrange
-      //Act
-      //Assert
+      Bread testOrder = new Bread(1);
+      Assert.AreEqual(typeof(Pastry), testOrder.GetType());
     }
   }
 }
