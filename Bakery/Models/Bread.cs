@@ -8,5 +8,11 @@ namespace Bakery.Models
     {
       BreadNumber = breadNumber;
     }
+
+    public int BreadCalculate()
+    {
+      //buy 2 get one free
+      return BreadTotal;
+    }
   }
 }
