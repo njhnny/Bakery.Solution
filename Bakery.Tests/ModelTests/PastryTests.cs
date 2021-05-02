@@ -15,7 +15,7 @@ namespace Bakery.Tests
       Pastry testOrder = new Pastry(1);
       //Act??
       //Assert
-      Assert.AreEqual(typeof(Pastry), testOrder.GetType());
+      Assert.AreEqual(typeof(Bread), testOrder.GetType());
     }
   }
 }

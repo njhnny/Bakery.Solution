@@ -8,11 +8,11 @@ namespace Bakery.Models
     {
       PastryNumber = pastryNumber;
     }
-    public int PastryCalculate()
-    {
-    int PastryTotal = PastryCost;
+    // public int PastryCalculate()
+    // {
+    // int PastryTotal = PastryCost;
 
-    return PastryTotal;
-    }
+    // return PastryTotal;
+    // }
   }
 }
