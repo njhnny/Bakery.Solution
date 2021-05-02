@@ -13,7 +13,7 @@ dotnet
 Setup and Installation:
 Open terminal(mac) or command line(pc)
 Navigate to the location you would like this project using the command "cd (name of location)"
-Enter "git clone https://github.com/njhnny/currency-exchanger"
+Enter "git clone https://github.com/njhnny/bakery-project"
 or
 
 Navigate to the project's github page in your browser and download the code using the green button in the top right corner.
