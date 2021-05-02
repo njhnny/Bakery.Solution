@@ -13,7 +13,7 @@ namespace Bakery.Models
     {
       int breadDiscount = BreadCost * ((BreadNumber - BreadNumber % 3) / 3);
       int BreadTotal = BreadNumber * BreadCost - breadDiscount;
-      //requested number of loaves must include free loaves
+
       return BreadTotal;
     }
   }

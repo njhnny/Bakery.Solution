@@ -5,6 +5,7 @@ namespace Bakery.Models
     public int PastryCost = 2;
     public int ThreePastriesCost = 5;
     public int PastryNumber { get; }
+    
     public Pastry(int pastryNumber)
     {
       PastryNumber = pastryNumber;
