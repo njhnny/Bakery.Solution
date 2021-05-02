@@ -21,10 +21,12 @@ or
 * Use terminal to navigate to Bakery to run program.
 * To run tests, navigate to Bakery.Tests in terminal and enter command (npm test).
 
-View Online
+## Known Bugs
+A non integer input from the user will result in errors and the program ending.
+
+## View Online
 This project is not yet hosted.
 
-Specs
 Contact
 njhnny@gmail.com
 
