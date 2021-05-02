@@ -16,9 +16,9 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-    public void PastryCalculate_ReturnsCostOfOnePastry_Int()
+    public void BreadCalculate_ReturnsCostOfOneLoaf_Int()
     {
-      int testBreadPrice = 2;
+      int testBreadPrice = 5;
       Bread testOrder = new Bread(1);
       Assert.AreEqual(testBreadPrice, testOrder.BreadCalculate());
     }
