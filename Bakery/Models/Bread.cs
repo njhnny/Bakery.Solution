@@ -2,7 +2,7 @@ namespace Bakery.Models
 {
   public class Bread
   {
-    public int BreadCost = 2;
+    public int BreadCost = 5;
     public int BreadNumber { get; set; }
     public Bread(int breadNumber)
     {
@@ -11,7 +11,9 @@ namespace Bakery.Models
 
     public int BreadCalculate()
     {
-      //buy 2 get one free
+      int breadDiscount = BreadCost * ((BreadNumber - BreadNumber % 3) / 3);
+      int BreadTotal = BreadNumber * BreadCost - breadDiscount;
+      //requested number of loaves must include free loaves
       return BreadTotal;
     }
   }
