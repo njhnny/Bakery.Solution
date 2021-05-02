@@ -3,7 +3,6 @@ namespace Bakery.Models
   public class Pastry
   {
     public int PastryCost = 2;
-    public int ThreePastriesCost = 5;
     public int PastryNumber { get; set; }
     public Pastry(int pastryNumber)
     {
