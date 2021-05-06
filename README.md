@@ -19,7 +19,9 @@ or
 * dotnet V5 is required to run this program. Install if needed.
 
 * Use terminal to navigate to Bakery to run program.
-* To run tests, navigate to Bakery.Tests in terminal and enter command (npm test).
+* Enter command dotnet build to build the project and install dependencies.
+* Enter dotnet run to run the program.
+* To run tests, navigate to Bakery.Tests in terminal and enter command dotnet test.
 
 ## Known Bugs
 A non integer input from the user will result in errors and the program ending.
